@@ -118,7 +118,7 @@ func Test_kOrderStats(t *testing.T) {
 		{
 			"case",
 			args{[]int{-1, -4, 3, -5, 2, 5, -6}, 0, 6, 6},
-			[]int{-1, -4, 3, -5, 2, 5, -6},
+			[]int{-6, -5, -1, -4, 2, 3, 5},
 		},
 	}
 	for _, tt := range tests {
